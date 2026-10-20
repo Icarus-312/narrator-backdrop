@@ -1,0 +1,154 @@
+{
+  "duration": 20.0,
+  "scenes": [
+    {
+      "id": "s01",
+      "layout": "typewriter",
+      "start": 0,
+      "end": 4,
+      "lines": [
+        {
+          "words": [
+            {
+              "text": "Context",
+              "t": 0.4
+            },
+            {
+              "text": "windows",
+              "t": 0.65
+            },
+            {
+              "text": "are",
+              "t": 0.9
+            },
+            {
+              "text": "limited",
+              "t": 1.15,
+              "red": true
+            }
+          ]
+        },
+        {
+          "words": [
+            {
+              "text": "so",
+              "t": 2.0
+            },
+            {
+              "text": "we",
+              "t": 2.2
+            },
+            {
+              "text": "use",
+              "t": 2.4
+            },
+            {
+              "text": "memory",
+              "t": 2.6
+            }
+          ]
+        }
+      ],
+      "strikes": [
+        {
+          "line": 0,
+          "word": 3,
+          "t": 1.7
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "layout": "pipeline",
+      "start": "=prev",
+      "end": 8,
+      "nodes": [
+        {
+          "icon": "doc",
+          "label": "Docs",
+          "t": 4.4
+        },
+        {
+          "icon": "db",
+          "label": "Index",
+          "t": 5.2,
+          "sub": "vectors"
+        },
+        {
+          "icon": "search",
+          "label": "Retrieve",
+          "t": 6.0
+        },
+        {
+          "icon": "bot",
+          "label": "Answer",
+          "t": 6.8,
+          "glow_t": 7.05
+        }
+      ],
+      "pill": {
+        "text": "RAG pipeline",
+        "t": 7.2,
+        "olive": true
+      }
+    },
+    {
+      "id": "s03",
+      "layout": "converge",
+      "start": "=prev",
+      "end": 12,
+      "sources": [
+        {
+          "icon": "doc",
+          "label": "Notes",
+          "t": 8.4
+        },
+        {
+          "icon": "mail",
+          "label": "Email",
+          "t": 8.8
+        },
+        {
+          "icon": "chat",
+          "label": "Calls",
+          "t": 9.2
+        },
+        {
+          "icon": "folder",
+          "label": "Files",
+          "t": 9.6
+        }
+      ],
+      "target": {
+        "icon": "bot",
+        "label": "Assistant",
+        "t": 10.6
+      }
+    },
+    {
+      "id": "s04",
+      "layout": "word-cards",
+      "start": "=prev",
+      "end": 16,
+      "words": [
+        {
+          "text": "Retrieval",
+          "t": 12.4
+        },
+        {
+          "text": "Augmented",
+          "t": 12.9
+        },
+        {
+          "text": "Generation",
+          "t": 13.4
+        }
+      ],
+      "glow_t": 14.0,
+      "big": {
+        "text": "RAG",
+        "t": 14.4
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "duration": 20.0,
+  "scenes": [
+    {
+      "id": "s01",
+      "layout": "big-word",
+      "start": 0,
+      "end": "e:channel",
+      "sub": "what's going on?",
+      "sub_t": 0.1,
+      "word": "Jacob",
+      "word_t": "w:jacob",
+      "pill": "welcome to the channel",
+      "pill_t": "w:welcome"
+    },
+    {
+      "id": "s02",
+      "layout": "stat",
+      "start": "=prev",
+      "end": "e:capital",
+      "label": "How to get yourself funded",
+      "label_t": "w:talk",
+      "nums": [
+        {
+          "to": 100,
+          "t": "w:hundred",
+          "dur": 0.5
+        },
+        {
+          "to": 250,
+          "t": "w:two",
+          "dur": 0.95
+        }
+      ],
+      "prefix": "$",
+      "suffix": "K",
+      "dash": "to",
+      "pill": "0% interest",
+      "pill_t": "w:zero",
+      "sub": "business capital",
+      "sub_t": "w:business"
+    },
+    {
+      "id": "s03",
+      "layout": "stat",
+      "start": "=prev",
+      "end": "e:space",
+      "label": "Real quick backstory",
+      "label_t": "w:backstory",
+      "nums": [
+        {
+          "to": 17,
+          "t": "w:seventeen",
+          "dur": 0.95
+        }
+      ],
+      "prefix": "$",
+      "suffix": "M",
+      "pill": "funded for past clients",
+      "pill_t": "w:past",
+      "sub": "worked with the biggest companies in the space",
+      "sub_t": "w:worked"
+    },
+    {
+      "id": "s04",
+      "layout": "line-chart",
+      "start": "=prev",
+      "end": "e:alone",
+      "title": "Client success fees",
+      "title_t": "w:instances",
+      "draw_t": "w:million",
+      "draw_end": "e:alone",
+      "pills": [
+        {
+          "text": "$1M a month",
+          "t": "w:month",
+          "olive": true,
+          "x": 560,
+          "y": 70
+        },
+        {
+          "text": "just success fees",
+          "t": "w:success",
+          "olive": false,
+          "x": 300,
+          "y": 190
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "duration": 865.27,
+  "scenes": [
+    {"id": "s01", "layout": "big-word", "start": 0, "end": "e:channel",
+     "sub": "what's going on?", "sub_t": 0.1, "word": "Jacob", "word_t": "w:jacob",
+     "pill": "welcome to the channel", "pill_t": "w:welcome"},
+
+    {"id": "s02", "layout": "stat", "start": "=prev", "end": "e:capital",
+     "label": "How to get yourself funded", "label_t": "w:talk",
+     "nums": [{"to": 100, "t": "w:hundred", "dur": 0.5}, {"to": 250, "t": "w:two", "dur": 0.95}],
+     "prefix": "$", "suffix": "K", "dash": "to",
+     "pill": "0% interest", "pill_t": "w:zero", "sub": "business capital", "sub_t": "w:business"},
+
+    {"id": "s03", "layout": "stat", "start": "=prev", "end": "e:space",
+     "label": "Real quick backstory", "label_t": "w:backstory",
+     "nums": [{"to": 17, "t": "w:seventeen", "dur": 0.95}], "prefix": "$", "suffix": "M",
+     "pill": "funded for past clients", "pill_t": "w:past",
+     "sub": "worked with the biggest companies in the space", "sub_t": "w:worked"},
+
+    {"id": "s04", "layout": "line-chart", "start": "=prev", "end": "e:alone",
+     "title": "Client success fees", "title_t": "w:instances", "draw_t": "w:million", "draw_end": "e:alone",
+     "pills": [{"text": "$1M a month", "t": "w:month", "olive": true, "x": 560, "y": 70},
+               {"text": "just success fees", "t": "w:success", "olive": false, "x": 300, "y": 190}]},
+
+    {"id": "s05", "layout": "checklist", "start": "=prev", "end": "e:time",
+     "title": "The perspective", "title_t": "w:perspective",
+     "rows": [{"text": "Been there", "t": "w:been"}, {"text": "Done that", "t": "w:done"},
+              {"text": "Seen quite a few funding profiles", "t": "w:seen"}],
+     "highlight_t": "w:profiles"},
+
+    {"id": "s06", "layout": "a-to-b", "start": "=prev", "end": "e:businesses",
+     "a": {"icon": "building", "text": "Funding companies", "t": "w:companies"},
+     "b": {"icon": "rocket", "text": "Their business", "t": "w:scale"},
+     "line_t": "w:start", "line_dur": 0.9,
+     "top_pill": {"text": "I also help", "t": "w:also"}, "mid_pill": {"text": "start or scale", "t": "w:or"}},
+
+    {"id": "s07", "layout": "cards", "start": "=prev", "end": "e:both",
+     "items": [{"icon": "chart", "title": "Optimize your credit profile", "t": "w:optimize"},
+               {"icon": "rocket", "title": "Build your funding sequence", "t": "w:building"}]},
+
+    {"id": "s08", "layout": "big-word", "start": "=prev", "end": "e:about",
+     "sub": "in the funding space", "sub_t": "w:now", "word": "Misinformation", "word_t": "w:misinformation",
+     "pill": "few funders know what they're talking about", "pill_t": "w:few"},
+
+    {"id": "s09", "layout": "big-word", "start": "w:simply", "end": "e:work",
+     "sub": "it comes down to", "sub_t": "w:simply", "word": "Volume", "word_t": "w:volume",
+     "pill": "of results and inputs", "pill_t": "w:results"},
+
+    {"id": "s10", "layout": "big-word", "start": "w:point", "end": "e:funding",
+     "sub": "today's rundown on the", "sub_t": "w:rundown", "word": "First principles", "word_t": "w:principles"},
+
+    {"id": "s11", "layout": "cards", "start": "w:reason", "end": "e:topic",
+     "items": [{"icon": "key", "title": "Why funding works", "sub": "as a concept", "t": "w:understanding"},
+               {"icon": "chart", "title": "What the process looks like", "t": "w:process"}]},
+
+    {"id": "s12", "layout": "checklist", "start": "w:again", "end": "e:place",
+     "title": "If you're looking to", "title_t": "w:again",
+     "rows": [{"text": "Optimize your own credit profile", "t": "w:optimize"},
+              {"text": "Build your own funding sequence", "t": "w:building"},
+              {"text": "No one else needed", "t": "w:longer"}],
+     "highlight_t": "w:anyone"},
+
+    {"id": "s13", "layout": "big-word", "start": "w:first", "end": "e:yourself",
+     "sub": "start with", "sub_t": "w:first", "word": "First principles", "word_t": "w:principles"},
+
+    {"id": "s14", "layout": "big-word", "start": "w:foremost#2", "end": "e:you#2",
+     "sub": "first and foremost", "sub_t": "w:foremost", "word": "Banks want to lend", "word_t": "w:banks"},
+
+    {"id": "s15", "layout": "big-word", "start": "w:financially", "end": "e:money",
+     "sub": "banks are financially", "sub_t": "w:financially", "word": "Incentivized", "word_t": "w:incentivized",
+     "pill": "to give you money", "pill_t": "w:give"},
+
+    {"id": "s16", "layout": "stat", "start": "=prev", "end": "e:right",
+     "label": "Banks can lend", "label_t": "w:number",
+     "nums": [{"to": 10, "t": "w:ten", "dur": 0.8}], "prefix": "", "suffix": "x",
+     "pill": "and make money off that", "pill_t": "w:make",
+     "sub": "the amount you give them", "sub_t": "w:amount"},
+
+    {"id": "s17", "layout": "cards", "start": "=prev", "end": "e:ways",
+     "heading": "Two ways banks make money", "heading_t": "w:money",
+     "items": [{"icon": "chart", "title": "Interest payments", "t": "w:interest"},
+               {"icon": "card", "title": "Card transaction fees", "t": "w:transaction"}]},
+
+    {"id": "s18", "layout": "big-word", "start": "w:financially", "end": "e:about",
+     "sub": "approved for", "sub_t": "w:approved", "word": "Business credit card stacking", "word_t": "w:stacking",
+     "pill": "the funding we talk about", "pill_t": "w:funding"},
+
+    {"id": "s19", "layout": "checklist", "start": "w:future", "end": "e:video",
+     "title": "Coming in future videos", "title_t": "w:future",
+     "rows": [{"text": "Revenue-based", "t": "w:revenuebased"}, {"text": "B-locks", "t": "w:blocks"},
+              {"text": "MCAs, only in certain cases", "t": "w:mcas"}],
+     "highlight_t": "w:valid"},
+
+    {"id": "s20", "layout": "big-word", "start": "w:main", "end": "e:cards",
+     "sub": "banks want to approve you for", "sub_t": "w:main", "word": "0% interest", "word_t": "w:zero",
+     "pill": "business credit cards", "pill_t": "w:business"},
+
+    {"id": "s21", "layout": "big-word", "start": "w:before", "end": "e:here",
+     "sub": "business funding is a", "sub_t": "w:wanna", "word": "Double-edged sword", "word_t": "w:sword",
+     "pill": "great power, great responsibility", "pill_t": "w:great"},
+
+    {"id": "s22", "layout": "a-to-b", "start": "w:honest", "end": "e:months",
+     "a": {"icon": "card", "text": "$150K at 0%", "t": "w:hundred"},
+     "b": {"icon": "check", "text": "Paid back", "t": "w:back"},
+     "line_t": "w:probability", "line_dur": 2.0,
+     "top_pill": {"text": "The only question", "t": "w:question"},
+     "mid_pill": {"text": "within 12 months", "t": "w:twelve"}},
+
+    {"id": "s23", "layout": "checklist", "start": "w:uncertain", "end": "e:first",
+     "title": "If you're not sure", "title_t": "w:uncertain",
+     "rows": [{"text": "Dial in your business", "t": "w:dial"}, {"text": "Increase profit margins", "t": "w:increase"},
+              {"text": "Lock in payroll numbers", "t": "w:payroll"}],
+     "highlight_t": "w:work"},
+
+    {"id": "s24", "layout": "big-word", "start": "w:space", "end": "e:channel",
+     "sub": "the funding space can be", "sub_t": "w:space", "word": "Predatory", "word_t": "w:predatory",
+     "pill": "if you're not educated", "pill_t": "w:educated"},
+
+    {"id": "s25", "layout": "big-word", "start": "w:prepared", "end": "e:success",
+     "sub": "if you're not prepared", "sub_t": "w:prepared", "word": "Your speed of success", "word_t": "w:speed"},
+
+    {"id": "s26", "layout": "big-word", "start": "=prev", "end": "e:are#2",
+     "sub": "money makes you", "sub_t": "w:makes", "word": "More of who you are", "word_t": "w:more"},
+
+    {"id": "s27", "layout": "checklist", "start": "w:must", "end": "e:business#2",
+     "title": "You must have", "title_t": "w:must",
+     "rows": [{"text": "Experienced business owner", "t": "w:experienced"},
+              {"text": "High certainty in your plan", "t": "w:certainty"},
+              {"text": "Able to make your ROI", "t": "w:ability"}],
+     "highlight_t": "w:roi"},
+
+    {"id": "s28", "layout": "big-word", "start": "w:certainty#2", "end": "e:yet",
+     "sub": "no ROI back in twelve months", "sub_t": "w:certainty", "word": "Bigger problems", "word_t": "w:bigger",
+     "pill": "you're not ready yet", "pill_t": "w:ready"},
+
+    {"id": "s29", "layout": "checklist", "start": "w:still", "end": "e:like",
+     "title": "You still get value", "title_t": "w:still",
+     "rows": [{"text": "Optimize your profile", "t": "w:optimize"}, {"text": "Build your personal profile", "t": "w:build"},
+              {"text": "Term loans and personal loans", "t": "w:term"}]},
+
+    {"id": "s30", "layout": "big-word", "start": "w:next", "end": "e:back",
+     "sub": "the banks' mindset", "sub_t": "w:mindset", "word": "The banks are gamblers", "word_t": "w:gamblers",
+     "pill": "high probability of paying back", "pill_t": "w:probability"},
+
+    {"id": "s31", "layout": "cards", "start": "w:longterm", "end": "e:accept",
+     "heading": "A long-term relationship", "heading_t": "w:longterm",
+     "items": [{"icon": "check", "title": "Green flags", "sub": "what you want", "tone": "olive", "t": "w:green"},
+               {"icon": "x", "title": "Red flags", "sub": "what you won't accept", "tone": "red", "t": "w:red"}]},
+
+    {"id": "s32", "layout": "big-word", "start": "=prev", "end": "e:patterns",
+     "sub": "millions of applications", "sub_t": "w:millions", "word": "Criteria", "word_t": "w:criteria",
+     "pill": "they've learned the patterns", "pill_t": "w:learned"},
+
+    {"id": "s33", "layout": "cards", "start": "w:certain", "end": "e:okay",
+     "items": [{"icon": "x", "title": "Likely to default", "tone": "red", "t": "w:defaulting"},
+               {"icon": "check", "title": "Likely to pay back", "t": "w:other"}]},
+
+    {"id": "s34", "layout": "checklist", "start": "w:delineated", "end": "e:report",
+     "title": "Patterns banks look at", "title_t": "w:patterns",
+     "rows": [{"text": "Average credit age", "t": "w:average"}, {"text": "Total available credit limits", "t": "w:total"},
+              {"text": "Comparable credit cards", "t": "w:comparable"}, {"text": "Late payments and charge-offs", "t": "w:late"},
+              {"text": "Collections and bankruptcies", "t": "w:collections"}]},
+
+    {"id": "s35", "layout": "a-to-b", "start": "w:alter", "end": "e:approval",
+     "a": {"icon": "chart", "text": "Your credit data", "t": "w:alter"},
+     "b": {"icon": "check", "text": "An approval", "t": "w:likely"},
+     "line_t": "w:remove", "line_dur": 1.3, "mid_pill": {"text": "in your favor", "t": "w:favor"}},
+
+    {"id": "s36", "layout": "big-word", "start": "w:click", "end": "e:call",
+     "word": "Book a call", "word_t": "w:click", "pill": "link in the description", "pill_t": "w:link"},
+
+    {"id": "s37", "layout": "a-to-b", "start": "w:review", "end": "e:funded",
+     "a": {"icon": "flag", "text": "Where you're at today", "t": "w:point"},
+     "b": {"icon": "rocket", "text": "Qualified and funded", "t": "w:qualified"},
+     "line_t": "w:bridge", "line_dur": 1.5,
+     "top_pill": {"text": "On the call", "t": "w:review"}, "mid_pill": {"text": "a direct strategy", "t": "w:direct"}},
+
+    {"id": "s38", "layout": "big-word", "start": "w:every", "end": "e:improve",
+     "sub": "every factor can be altered", "sub_t": "w:every", "word": "Not static", "word_t": "w:static",
+     "pill": "just like a human being", "pill_t": "w:human"},
+
+    {"id": "s39", "layout": "big-word", "start": "w:fluid", "end": "e:fixed",
+     "word": "Fluid", "word_t": "w:fluid", "pill": "you still have hope", "pill_t": "w:hope"},
+
+    {"id": "s40", "layout": "big-word", "start": "w:first", "end": "e:accounts",
+     "sub": "credit factor one", "sub_t": "w:first", "word": "Average age", "word_t": "w:average",
+     "pill": "open personal accounts only", "pill_t": "w:open"},
+
+    {"id": "s41", "layout": "a-to-b", "start": "w:add", "end": "e:age",
+     "a": {"icon": "clock", "text": "Add up the ages", "t": "w:add"},
+     "b": {"icon": "chart", "text": "Divide by the number of accounts", "t": "w:divide"},
+     "line_t": "w:ages", "line_dur": 2.0, "mid_pill": {"text": "average age", "t": "w:formula"}},
+
+    {"id": "s42", "layout": "stat", "start": "w:wanna", "end": "e:banks",
+     "label": "Minimum average credit age", "label_t": "w:wanna",
+     "nums": [{"to": 2, "t": "w:two", "dur": 0.5}], "prefix": "", "suffix": " years",
+     "pill": "qualified to the banks", "pill_t": "w:qualified"},
+
+    {"id": "s43", "layout": "a-to-b", "start": "w:easiest", "end": "e:profile",
+     "a": {"icon": "key", "text": "Authorized user account", "t": "w:authorized"},
+     "b": {"icon": "clock", "text": "More age on your profile", "t": "w:additional"},
+     "line_t": "w:actually", "line_dur": 1.0, "top_pill": {"text": "easiest way to improve", "t": "w:easiest"}},
+
+    {"id": "s44", "layout": "stat", "start": "w:utilization", "end": "e:right",
+     "label": "Utilization is the usage on a card", "label_t": "w:utilization#2",
+     "nums": [{"to": 20, "t": "w:twenty", "dur": 0.8}], "prefix": "", "suffix": "%",
+     "sub": "$200 used on a $1,000 card", "sub_t": "w:thousand"},
+
+    {"id": "s45", "layout": "stat", "start": "w:funders", "end": "e:board",
+     "label": "Most funders say", "label_t": "w:funders",
+     "nums": [{"to": 30, "t": "w:thirty", "dur": 0.5}, {"to": 20, "t": "w:twenty", "dur": 0.6}],
+     "prefix": "", "suffix": "%", "dash": "→",
+     "pill": "best results", "pill_t": "w:best", "sub": "what I tell my clients", "sub_t": "w:clients"},
+
+    {"id": "s46", "layout": "big-word", "start": "w:something", "end": "e:profile",
+     "sub": "20% utilization on", "sub_t": "w:twenty", "word": "Every single card", "word_t": "w:every",
+     "pill": "open personal revolving", "pill_t": "w:revolving"},
+
+    {"id": "s47", "layout": "bar-chart", "start": "w:some", "end": "e:higher",
+     "title": "Utilization per card", "title_t": "w:some", "unit": "%",
+     "bars": [{"value": 20, "label": "1", "t": "w:five"}, {"value": 20, "label": "2", "t": "w:five+0.3"},
+              {"value": 20, "label": "3", "t": "w:five+0.6"}, {"value": 20, "label": "4", "t": "w:five+0.9"},
+              {"value": 80, "label": "5", "t": "w:fifth", "hot": true}],
+     "pills": [{"text": "average doesn't count", "t": "w:count", "olive": false, "x": 620, "y": 60},
+               {"text": "denied", "t": "w:denied", "olive": true, "x": 800, "y": 130}]},
+
+    {"id": "s48", "layout": "cards", "start": "w:asking", "end": "e:other",
+     "items": [{"icon": "card", "title": "Revolving cards", "sub": "utilization matters", "t": "w:revolving"},
+               {"icon": "building", "title": "Installment loans", "sub": "HELOC, mortgage, car loan, Affirm",
+                "t": "w:installment", "dim_t": "w:those", "pill": {"text": "doesn't matter", "t": "w:those", "olive": false}}]},
+
+    {"id": "s49", "layout": "big-word", "start": "w:specifically", "end": "e:process",
+     "sub": "open revolving personal cards", "sub_t": "w:specifically", "word": "Pay them down", "word_t": "w:paying",
+     "pill": "before you move forward", "pill_t": "w:before"},
+
+    {"id": "s50", "layout": "big-word", "start": "w:presence", "end": "e:all",
+     "sub": "the presence of", "sub_t": "w:presence", "word": "Derogatory marks", "word_t": "w:derogatory",
+     "pill": "common misunderstanding", "pill_t": "w:misunderstanding"},
+
+    {"id": "s51", "layout": "checklist", "start": "w:negative", "end": "e:issue",
+     "title": "A negative account has", "title_t": "w:negative",
+     "rows": [{"text": "A late payment", "t": "w:late"}, {"text": "A charge-off", "t": "w:chargeoff"},
+              {"text": "A collection", "t": "w:collection"}, {"text": "A public record", "t": "w:public"}]},
+
+    {"id": "s52", "layout": "big-word", "start": "w:cannot", "end": "e:profile",
+     "sub": "you can never have", "sub_t": "w:cannot", "word": "No late payments", "word_t": "w:late",
+     "pill": "no matter how old", "pill_t": "w:matter"},
+
+    {"id": "s53", "layout": "big-word", "start": "w:gurus", "end": "e:see#2",
+     "sub": "some funding gurus say", "sub_t": "w:gurus", "word": "Absolutely not true", "word_t": "w:absolutely",
+     "pill": "if it's two years old", "pill_t": "w:two"},
+
+    {"id": "s54", "layout": "checklist", "start": "w:always", "end": "e:issues",
+     "title": "Remove all of these", "title_t": "w:always",
+     "rows": [{"text": "Late payments", "t": "w:late"}, {"text": "Charge-offs", "t": "w:chargeoffs"},
+              {"text": "Collections", "t": "w:collections"}, {"text": "Bankruptcies and child support", "t": "w:bankruptcies"}]},
+
+    {"id": "s55", "layout": "a-to-b", "start": "w:issues#2", "end": "e:detail",
+     "a": {"icon": "x", "text": "Late accounts", "tone": "red", "t": "w:issues"},
+     "b": {"icon": "check", "text": "Optimized profile", "t": "w:restoration"},
+     "line_t": "w:remove", "line_dur": 1.5, "mid_pill": {"text": "credit restoration or repair", "t": "w:restoration"}},
+
+    {"id": "s56", "layout": "big-word", "start": "w:main", "end": "e:whatsoever",
+     "sub": "the main thing", "sub_t": "w:main", "word": "No late accounts", "word_t": "w:late",
+     "pill": "present whatsoever", "pill_t": "w:present"},
+
+    {"id": "s57", "layout": "big-word", "start": "w:next", "end": "e:story",
+     "sub": "credit factor four", "sub_t": "w:next", "word": "Comparables", "word_t": "w:comparables"},
+
+    {"id": "s58", "layout": "cards", "start": "=prev", "end": "end",
+     "heading": "Two friends apply at Chase", "heading_t": "w:friends",
+     "items": [{"icon": "card", "title": "Friend one", "sub": "$2K, $3K, $4K cards", "t": "w:two#2",
+                "pill": {"text": "Chase: we'll get back to you", "t": "w:back", "olive": false}},
+               {"icon": "card", "title": "Friend two", "sub": "$9K, $10K, $15K cards", "t": "w:nine",
+                "pill": {"text": "approved, and higher", "t": "w:second", "olive": true}}]}
+  ]
+}

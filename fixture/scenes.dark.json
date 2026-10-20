@@ -1,0 +1,104 @@
+{
+  "duration": 20.0,
+  "scenes": [
+    {
+      "id": "s01",
+      "layout": "big-word",
+      "start": 0,
+      "end": "e:channel",
+      "sub": "what's going on?",
+      "sub_t": 0.1,
+      "word": "Jacob",
+      "word_t": "w:jacob",
+      "pill": "welcome to the channel",
+      "pill_t": "w:welcome"
+    },
+    {
+      "id": "s02",
+      "layout": "stat",
+      "start": "=prev",
+      "end": "e:capital",
+      "label": "How to get yourself funded",
+      "label_t": "w:talk",
+      "nums": [
+        {
+          "to": 100,
+          "t": "w:hundred",
+          "dur": 0.5
+        },
+        {
+          "to": 250,
+          "t": "w:two",
+          "dur": 0.95
+        }
+      ],
+      "prefix": "$",
+      "suffix": "K",
+      "dash": "to",
+      "pill": "0% interest",
+      "pill_t": "w:zero",
+      "sub": "business capital",
+      "sub_t": "w:business"
+    },
+    {
+      "id": "s03",
+      "layout": "stack",
+      "start": "w:real",
+      "end": "e:space",
+      "items": [
+        {
+          "icon": "doc",
+          "t": "w:backstory"
+        },
+        {
+          "icon": "doc",
+          "t": "w:funded"
+        },
+        {
+          "icon": "doc",
+          "t": "w:seventeen"
+        },
+        {
+          "icon": "doc",
+          "t": "w:past"
+        },
+        {
+          "icon": "doc",
+          "t": "w:worked"
+        }
+      ],
+      "pill": {
+        "text": "past clients",
+        "t": "w:clients"
+      },
+      "shuffle_t": "w:biggest"
+    },
+    {
+      "id": "s04",
+      "layout": "line-chart",
+      "start": "=prev",
+      "end": "e:alone",
+      "title": "Client success fees",
+      "title_t": "w:instances",
+      "draw_t": "w:million",
+      "draw_end": "e:alone",
+      "pills": [
+        {
+          "text": "$1M a month",
+          "t": "w:month",
+          "olive": true,
+          "x": 560,
+          "y": 70
+        },
+        {
+          "text": "just success fees",
+          "t": "w:success",
+          "olive": false,
+          "x": 300,
+          "y": 190
+        }
+      ]
+    }
+  ],
+  "theme": "dark"
+}

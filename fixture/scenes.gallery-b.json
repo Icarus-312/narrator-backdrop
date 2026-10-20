@@ -1,0 +1,71 @@
+{
+  "duration": 20.0,
+  "theme": "dark",
+  "scenes": [
+    {
+      "id": "s01",
+      "layout": "container",
+      "start": 0,
+      "end": 4.2,
+      "t": 0.3,
+      "label": "context window",
+      "w_from": 520,
+      "w_to": 1250,
+      "grow_t": 1.1,
+      "fill": {
+        "icons": [
+          "doc",
+          "chat",
+          "mail",
+          "folder"
+        ],
+        "count": 24,
+        "t": 1.9,
+        "stagger": 0.06
+      },
+      "pill": {
+        "text": "1M tokens",
+        "t": 3.3
+      }
+    },
+    {
+      "id": "s04",
+      "layout": "timeline-arc",
+      "start": "=prev",
+      "end": 16.2,
+      "tiles": [
+        {
+          "icon": "bulb",
+          "label": "Idea",
+          "t": 12.5
+        },
+        {
+          "icon": "doc",
+          "label": "Draft",
+          "t": 12.8
+        },
+        {
+          "icon": "wrench",
+          "label": "Edit",
+          "t": 13.1
+        },
+        {
+          "icon": "rocket",
+          "label": "Ship",
+          "t": 13.4
+        },
+        {
+          "icon": "refresh",
+          "label": "Learn",
+          "t": 13.7
+        }
+      ],
+      "arc_t": 14.2,
+      "arc_dur": 0.9,
+      "pill": {
+        "text": "repeat",
+        "t": 15.1
+      }
+    }
+  ]
+}
